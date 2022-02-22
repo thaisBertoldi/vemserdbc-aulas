@@ -1,0 +1,86 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li {
+    list-style: none; 
+    display: inline;
+}
+
+li a {
+    color: aliceblue;
+    text-align: center;
+    margin: 0px 12px 12px 0px;
+}
+
+header {
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    margin: 35px 0px;
+    padding: 35px 0px;
+    border-style: double;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: blueviolet;
+    color: aliceblue;
+    margin: 35px 0px;
+    padding: 35px 0px;
+    border-style: double;
+    text-align: center;
+}
+
+address {
+    margin: 35px;
+}
+
+.video {
+    text-align: center;
+}
+
+.logo {
+    display: inline;
+    margin: 100px 50px 50px 50px;
+}
+
+.img {
+    width: 100px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    border-style:dashed;
+    background-color: rgb(192, 248, 255);
+    display: inline;
+    color: white;
+}
+
+label {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+}
