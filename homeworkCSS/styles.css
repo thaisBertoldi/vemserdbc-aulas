@@ -50,7 +50,8 @@ footer {
 }
 
 address {
-    margin: 35px;
+    padding-top: 35px;
+    margin-left: 30px;
 }
 
 .endereco {
@@ -91,14 +92,14 @@ label {
 }
 
 .botao-salvar {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 25%;
+    padding: 12px;
+    margin: 8px;
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 4px;
-    border-style:dashed;
-    background-color: #c0b2b2;
+    background-color: #271637;
     display: inline;
-    color: #0c081c;
+    color: #c0b2b2;
+    cursor: pointer;
 }
