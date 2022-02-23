@@ -17,17 +17,16 @@ header {
     background-color: #4b2a53;
     color: #c0b2b2;
     text-align: center;
-    margin: 35px 0px;
-    padding: 35px 0px;
     border-style: double;
 }
+
 
 .container {
     margin: 0 auto;
     max-width: 1200px;
 }
 
-p {
+.paragrafos {
     color: #0c081c;
     font-size: 20px;
     border-bottom: 1px solid #c0b2b2;
@@ -62,33 +61,14 @@ address {
     text-align: center;
 }
 
-.logo {
+#logo {
     display: inline;
     margin: 100px 50px 50px 50px;
 }
 
-.img {
+.logo-dbc {
     width: 100px;
-}
-
-input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid;
-    border-radius: 4px;
-    border-style:dashed;
-    background-color: #c0b2b2;
-    display: inline;
-    color: #0c081c;
-}
-
-label {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline;
+    
 }
 
 .botao-salvar {
@@ -122,4 +102,31 @@ label {
 .imagem-esquilo {
     display: flex;
     flex-direction: column;
+}
+
+form {
+    border: 5px solid #c0b2b2;
+    margin: 35px;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+    
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    border-style:dashed;
+    background-color: #c0b2b2;
+    color: #0c081c;
+}
+    
+label {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
 }
