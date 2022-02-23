@@ -103,3 +103,23 @@ label {
     color: #c0b2b2;
     cursor: pointer;
 }
+
+.imagens-esquilo {
+    display: flex;
+    text-align: center;
+    border: 10px dashed #4b2a53;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.imagem-esquilo img {
+    width: 100px;
+    background-color: #c0b2b2;
+    border: 2px dashed #c0b2b2;
+    padding: 40px;
+}
+
+.imagem-esquilo {
+    display: flex;
+    flex-direction: column;
+}
