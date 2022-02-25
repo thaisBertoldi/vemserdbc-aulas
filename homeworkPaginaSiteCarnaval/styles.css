@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px;
+    border: 2px solid #18A0FB;
+}
+
+header a, section a {
+    text-decoration: none;
+    color: #18A0FB;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.login-register {
+    color: #18A0FB;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    padding: 50px;
+}
+
+.login, .register {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #18A0FB;
+    border-radius: 6px;
+}
+
+.login:hover, .register:hover {
+    background-color: #18A0FB;
+}
+
+.login:hover a, .register:hover a {
+    color: #FFFFFF;
+}
+
+/* --> Video <-- */
+
+.video {
+    width: 100%;
+}
+
+.logo-video {
+    position: absolute;
+    top: 557px;
+    left: 915px;
+    bottom: 414px;
+    right: 774px;
+}
+
+.titulo1 {
+    position: absolute;
+    top: 743px;
+    left: 300px;
+    bottom: 248px;
+    right: 144px;
+    text-align: center;
+    font-size: 56px;
+    width: 1392px;
+    height: 80px;
+}
+
+/* --> Sobre <-- */
+
+.titulo-sobre {
+    margin-left: 50px;
+    margin-right: 50%;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.learn-more {
+    padding: 10px;
+    margin: 25px 0;
+    border: 2px solid #18A0FB;
+    border-radius: 6px;
+    width: 100px;
+    height: 18px;
+}
+
+.container-sobre {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+}
+
+.container-sobre h2 {
+    padding: 15px 0;
+}
