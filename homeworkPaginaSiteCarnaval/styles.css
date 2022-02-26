@@ -20,7 +20,7 @@ header a, section a {
     color: #18A0FB;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
     padding-left: 30px;
 }
@@ -248,4 +248,64 @@ main a {
     margin: 5px;
     border: 2px solid #18A0FB;
     border-radius: 6px;
+}
+
+/* --> Footer <-- */
+
+.nav-primeira-parte ul li {
+    display: inline;
+    margin: 50px 100px 50px 0;
+}
+
+.nav-segunda-parte ul li {
+    display: inline;
+    margin: 50px 0 50px 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #000000;
+    padding: 40px 0;
+}
+
+.redes-sociais {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.redes-sociais img {
+    width: 44px;
+    height: 44px;
+    border-radius: 70%;
+}
+
+.inc {
+    padding: 40px 0 120px 0;
+    text-align: center;
 }
