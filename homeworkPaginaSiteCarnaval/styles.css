@@ -62,6 +62,7 @@ nav ul li {
     grid-row-gap: 0px;
     height: 100vh;
     background: url(video.png);
+    background-size: 100%;
     text-align: center;
     justify-content: center;
     align-items: center; 
@@ -117,10 +118,63 @@ main a {
 
 .container-sobre {
     display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 50px;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    max-width: 2000px;
 }
 
 .container-sobre h2 {
     padding: 15px 0;
+}
+
+/* --> Conteúdo <-- */
+
+.container-body1 {
+    display: flex;
+    margin: 0;
+    margin-bottom: 80px;
+    max-width: 2000px;
+}
+
+.container-body1 > div { 
+    flex: 1 1 300px; 
+    margin: 10px;
+} 
+
+.container-body1 img {
+    width: 100%;
+}
+
+.titulo-body1 h2 {
+    padding-bottom: 15px;
+    margin-left: 50;
+}
+
+.titulo-body1 p {
+    margin-right: 50px;
+}
+
+.container-body2 {
+    display: flex;
+    margin: 0;
+    max-width: 2000px;
+    background-color: #F5F5F5;
+}
+
+.container-body2 > div { 
+    flex: 1 1 300px; 
+    margin: 10px;
+} 
+
+.container-body2 img {
+    width: 100%;
+}
+
+.titulo-body2 h2 {
+    padding-bottom: 15px;
+    margin-left: 50;
+}
+
+.titulo-body2 p {
+    margin-right: 50px;
 }
