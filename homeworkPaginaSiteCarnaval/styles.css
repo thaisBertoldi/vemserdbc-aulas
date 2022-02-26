@@ -185,6 +185,7 @@ main a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .titulo2 {
@@ -210,4 +211,41 @@ main a {
 .fotos-testimonial img {
     width: 250px;
     height: 150px;
+}
+
+/* --> Contato <--- */
+
+.container-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 120px 144px 80px;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.join-today2 {
+    padding: 15px 50px;
+    text-align: center;
+    margin: 25px 50px 25px 150px;
+    border-radius: 6px;
+    background-color: #18A0FB;
+}
+
+.join-today2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.titulo3 {
+    font-size: 36px;
+    max-width: 50%;
+    text-align: flex-start;
+}
+
+.contact {
+    padding: 15px 50px;
+    margin: 5px;
+    border: 2px solid #18A0FB;
+    border-radius: 6px;
 }
