@@ -55,17 +55,28 @@ nav ul li {
 /* --> Video <-- */
 
 .video-principal {
-    /* display: grid;
-    background: url(video.png);
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%; */
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     height: 100vh;
     background: url(video.png);
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+}
+
+.logo-video {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.titulo1 {
+    grid-area: 4 / 2 / 5 / 5;
+}
+
+.join-today {
+    grid-area: 5 / 3 / 6 / 4;;
 }
 
 main a {
@@ -74,7 +85,7 @@ main a {
 }
 
 .join-today {
-    padding: 10px;
+    padding: 10px 50px;
     text-align: center;
     margin: 25px 25px;
     border-radius: 6px;
