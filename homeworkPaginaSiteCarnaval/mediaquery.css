@@ -1,0 +1,28 @@
+@media (max-width: 1000px){
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .nav-primeira-parte, .nav-segunda-parte {
+        display: none;
+    }
+
+    .fotos-testimonial {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 84px;
+        grid-row-gap: 64px;
+    }
+}
+
+@media (max-width: 800px){
+    .container-contato {
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo3 {
+        text-align: center;
+    }
+}
