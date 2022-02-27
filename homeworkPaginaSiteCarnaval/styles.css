@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -60,7 +60,7 @@ header nav ul li {
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background: url(video.png);
+    background: url(https://i.ytimg.com/an_webp/OlvBin-wEnw/mqdefault_6s.webp?du=3000&sqp=CMjd7ZAG&rs=AOn4CLBTjQkibw-omM0X3t95iPAuPHxu3A);
     background-size: 100%;
     text-align: center;
     justify-content: center;
@@ -107,6 +107,10 @@ main a {
     font-size: 40px;
 }
 
+.titulo-sobre h1 {
+    font-weight: normal;
+}
+
 .learn-more {
     padding: 10px;
     margin: 25px 0;
@@ -120,7 +124,6 @@ main a {
     display: grid;
     grid-template-columns: auto auto;
     margin: 50px;
-    max-width: 2000px;
 }
 
 .container-sobre h2 {
@@ -133,7 +136,7 @@ main a {
     display: flex;
     margin: 0;
     margin-bottom: 80px;
-    max-width: 2000px;
+    align-items: center;
 }
 
 .container-body1 > div { 
@@ -142,7 +145,8 @@ main a {
 } 
 
 .container-body1 img {
-    width: 100%;
+    width: 750px;
+    height: 440px;
 }
 
 .titulo-body1 h2 {
@@ -158,8 +162,8 @@ main a {
     display: flex;
     margin: 0;
     padding-right: 20px;
-    max-width: 2000px;
     background-color: #F5F5F5;
+    align-items: center;
 }
 
 .container-body2 > div { 
@@ -168,16 +172,19 @@ main a {
 } 
 
 .container-body2 img {
-    width: 100%;
+    width: 750px;
+    height: 440px;
 }
 
 .titulo-body2 h2 {
     padding-bottom: 15px;
-    margin-left: 50;
+    margin-right: 50px;
+    margin-left: 25px;
 }
 
 .titulo-body2 p {
     margin-right: 50px;
+    margin-left: 25px;
 }
 
 /* --> Depoimentos <-- */
@@ -190,9 +197,12 @@ main a {
 }
 
 .titulo2 {
-    font-style: normal;
     font-size: 48px;
-    margin: 120px 0 30px 0;
+    margin: 120px 0 60px 0;
+}
+
+.titulo2 h1 {
+    font-weight: normal;
 }
 
 .paragrafo {
@@ -227,8 +237,8 @@ main a {
 
 .join-today2 {
     padding: 15px 50px;
-    text-align: left;
-    margin: 25px 50px 25px 50px;
+    text-align: center;
+    margin: 25px 50px;
     border-radius: 6px;
     background-color: #18A0FB;
 }
@@ -240,7 +250,6 @@ main a {
 
 .titulo3 {
     font-size: 36px;
-    max-width: 50%;
     text-align: flex-start;
 }
 
@@ -249,6 +258,7 @@ main a {
     margin: 5px;
     border: 2px solid #18A0FB;
     border-radius: 6px;
+    text-align: center;
 }
 
 /* --> Footer <-- */
