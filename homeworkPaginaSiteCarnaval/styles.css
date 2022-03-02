@@ -12,7 +12,6 @@
     justify-content: flex-start;
     align-items: center;
     padding: 14px;
-    border: 2px solid #18A0FB;
 }
 
 header a, section a {
@@ -60,11 +59,13 @@ header nav ul li {
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background: url(https://i.ytimg.com/an_webp/OlvBin-wEnw/mqdefault_6s.webp?du=3000&sqp=CMjd7ZAG&rs=AOn4CLBTjQkibw-omM0X3t95iPAuPHxu3A);
-    background-size: 100%;
     text-align: center;
     justify-content: center;
     align-items: center; 
+    background: url(https://i.ytimg.com/an_webp/OlvBin-wEnw/mqdefault_6s.webp?du=3000&sqp=CICQ_pAG&rs=AOn4CLA4FliY4YCIAIrI53XamhYVA14gEQ);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    max-width: 100%;
 }
 
 .logo-video {
